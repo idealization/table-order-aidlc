@@ -1,0 +1,140 @@
+.orders-page {
+  padding: 20px 16px;
+}
+
+.orders-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.order-num {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.order-time {
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.order-status {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-preparing {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status-completed {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.order-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.order-item-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.item-name {
+  flex: 1;
+  color: var(--gray-700);
+}
+
+.item-qty {
+  color: var(--gray-500);
+  min-width: 30px;
+}
+
+.item-price {
+  font-weight: 500;
+  min-width: 70px;
+  text-align: right;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid var(--gray-100);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.total-amount {
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Empty state */
+.empty-orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.empty-orders .empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-orders h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: var(--gray-700);
+}
+
+.empty-orders p {
+  color: var(--gray-500);
+}
